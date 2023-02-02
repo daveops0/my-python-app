@@ -17,4 +17,4 @@ jobs:
         run: pwd && ls -l
 
       - name: check if python installed
-        run: python --version
+        run: python app.py
